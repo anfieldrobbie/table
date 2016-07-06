@@ -1,0 +1,64 @@
+<link rel="stylesheet" href="__STATIC__/uploadify/Huploadify.css">
+<link rel="stylesheet" href="__ADDONROOT__/style/UploadImages.css"> 
+<script src="__STATIC__/uploadify/jquery.Huploadify.js"></script>
+<div id="upload_picture_{$name}"></div>
+    <input type="hidden" name="{$name}" value="{$valStr}" class="icon {$name}" />
+    <div class="upload-img-box">
+        <notempty name="valArr">
+             <volist name="valArr" id="v">
+                <div class="upload-pre-item">
+                    <img src="__ROOT__{$v|get_cover='path'}" data-id="{$v}"/>
+                    <span class='btn-close btn-close-{$name}' title='删除图片'></span>
+                </div>
+             </volist>
+        </notempty>
+    </div>
+                            <script type="text/javascript">
+    //上传图片
+$(function(){
+    var up = $('#upload_picture_{$name}').Huploadify({
+		auto:true,
+                buttonText      : "上传图片",
+		fileTypeExts:'*.jpg; *.png; *.gif;*.JPG;*.GIF;*.PND;*.JPEG;',
+		multi:true,
+                fileObjName    : "download",
+                width           : 120,
+                removeTimeout   : 1,
+		uploader:"{:U('File/uploadPicture',array('session_id'=>session_id()))}",
+		onUploadComplete:function(file,data){
+                    var data = $.parseJSON(data);
+                    var src = '';
+                    if(data.status){
+                    src = data.url || '__ROOT__' + data.path;
+                    upload_img = "<div class='upload-pre-item'><img src=" + src +" title='点击显示大图' data-id="+data.id+"> <span class='btn-close btn-close-{$name}' title='删除图片'></span></div>";
+                    picsbox = $("#upload_picture_{$name}").siblings('.upload-img-box');
+                    picsbox.append(upload_img)
+                    picArr = [];
+                    for (var i = 0; i < picsbox.children().length ; i++) {
+                    picArr.push(picsbox.children('.upload-pre-item:eq('+i+')').find('img').attr('data-id'));
+                    };
+                    picStr = picArr.join(',');
+                    $('.icon.{$name}').val(picStr);
+                    } else {
+                    updateAlert(data.info);
+                    setTimeout(function(){
+                    $('#top-alert').find('button').click();
+                    $(that).removeClass('disabled').prop('disabled',false);
+                    },1500);
+                    }
+		},
+});
+           $('.btn-close-{$name}').click(function(event) {
+           
+            event.preventDefault();
+            $(this).parent().remove();
+            picsbox = $("#upload_picture_{$name}").siblings('.upload-img-box');
+            picArr = [];
+            for (var i = 0; i < picsbox.children().length ; i++) {
+                picArr.push(picsbox.children('.upload-pre-item:eq('+i+')').find('img').attr('data-id'));
+            };
+            picStr = picArr.join(',');
+            $('.icon.{$name}').val(picStr);
+        });
+        });
+</script>
