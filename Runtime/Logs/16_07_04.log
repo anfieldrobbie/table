@@ -1,0 +1,1889 @@
+[ 2016-07-04T16:58:57+08:00 ] 172.16.3.32 /
+INFO: [ app_init ] --START--
+SQL: SHOW COLUMNS FROM `table_hooks` [ RunTime:0.020323s ]
+SQL: SELECT `name`,`addons` FROM `table_hooks`  [ RunTime:0.021003s ]
+SQL: SHOW COLUMNS FROM `table_addons` [ RunTime:0.021521s ]
+SQL: SELECT `id`,`name` FROM `table_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('ReturnTop') )  [ RunTime:0.020951s ]
+SQL: SELECT `id`,`name` FROM `table_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Attachment') )  [ RunTime:0.021364s ]
+SQL: SELECT `id`,`name` FROM `table_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Attachment','SocialComment') )  [ RunTime:0.022402s ]
+SQL: SELECT `id`,`name` FROM `table_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Attachment') )  [ RunTime:0.021874s ]
+SQL: SELECT `id`,`name` FROM `table_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Editor') )  [ RunTime:0.022174s ]
+SQL: SELECT `id`,`name` FROM `table_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('EditorForAdmin') )  [ RunTime:0.022045s ]
+SQL: SELECT `id`,`name` FROM `table_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('SiteStat','SystemInfo','DevTeam') )  [ RunTime:0.022740s ]
+SQL: SELECT `id`,`name` FROM `table_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Editor') )  [ RunTime:0.019968s ]
+SQL: SELECT `id`,`name` FROM `table_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('UploadImages') )  [ RunTime:0.020713s ]
+INFO: Run Common\Behavior\InitHook [ RunTime:1.061540s ]
+INFO: [ app_init ] --END-- [ RunTime:1.064965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003773s ]
+
+[ 2016-07-04T16:58:57+08:00 ] 172.16.3.32 /index.php?s=/Home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.014276s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.052137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003859s ]
+
+[ 2016-07-04T16:59:13+08:00 ] 172.16.3.32 /index.php?s=/Home/login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.021063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.050298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003897s ]
+
+[ 2016-07-04T17:00:29+08:00 ] 172.16.3.32 /index.php?s=/Home/login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.022599s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.050829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003367s ]
+
+[ 2016-07-04T17:02:39+08:00 ] 172.16.3.32 /index.php?s=/Home/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.016952s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+
+[ 2016-07-04T17:03:01+08:00 ] 172.16.3.32 /index.php?s=/Home/Login/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.019973s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004336s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.027100s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.021473s ]
+SQL: INSERT INTO `table_member` (`nickname`,`status`) VALUES ('null',1) [ RunTime:0.025509s ]
+SQL: SELECT * FROM `table_ucenter_member` WHERE ( `username` = 'null' ) LIMIT 1   [ RunTime:0.021959s ]
+SQL: SELECT * FROM `table_ucenter_member` WHERE ( `mobile` = '13602456629' ) LIMIT 1   [ RunTime:0.023907s ]
+SQL: INSERT INTO `table_ucenter_member` (`username`,`password`,`mobile`,`shop_id`,`reg_time`,`reg_ip`,`update_time`,`status`) VALUES ('null','fbe2adcac7cdba2feb429f482a4098f2','13602456629',0,1467622981,'2886730528',1467622981,1) [ RunTime:0.027404s ]
+
+[ 2016-07-04T17:03:03+08:00 ] 172.16.3.32 /index.php?s=/Home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.011655s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.053034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003893s ]
+
+[ 2016-07-04T17:03:06+08:00 ] 172.16.3.32 /index.php?s=/Home/Login/loginin.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.011533s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003398s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022342s ]
+SQL: SELECT * FROM `table_ucenter_member` WHERE ( `mobile` = '13018473858' ) LIMIT 1   [ RunTime:0.022998s ]
+SQL: UPDATE `table_ucenter_member` SET `last_login_time`=1467622985,`last_login_ip`='2886730528' WHERE ( `id` = 4 ) [ RunTime:0.022214s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.022122s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`shop_id`,`head_img` FROM `table_member` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.024993s ]
+SQL: UPDATE `table_member` SET `login`=`login`+1,`last_login_time`=1467622985,`last_login_ip`='2886730528' WHERE ( `uid` = 4 ) [ RunTime:0.020447s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022247s ]
+SQL: SELECT `id`,`username`,`email`,`mobile`,`status` FROM `table_ucenter_member` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.021726s ]
+SQL: SHOW COLUMNS FROM `table_action` [ RunTime:0.021689s ]
+SQL: SELECT * FROM `table_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.021998s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.020982s ]
+SQL: SELECT `nickname` FROM `table_member` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.021003s ]
+SQL: SHOW COLUMNS FROM `table_action_log` [ RunTime:0.021681s ]
+SQL: INSERT INTO `table_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,4,2886730528,'member',4,1467622985,'test3在2016-07-04 17:03登录了后台') [ RunTime:0.031325s ]
+SQL: SELECT * FROM `table_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.022187s ]
+NOTIC: [8] Undefined offset: 1 /mnt/php/table/Application/Common/Common/function.php 第 673 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given /mnt/php/table/Application/Common/Common/function.php 第 673 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `table_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 4 ) AND ( `create_time` > 1467536585 ) LIMIT 1   [ RunTime:0.022743s ]
+
+[ 2016-07-04T17:03:07+08:00 ] 172.16.3.32 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013452s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004064s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.052494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004092s ]
+
+[ 2016-07-04T17:03:17+08:00 ] 172.16.3.32 /index.php?s=/Home/find/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.022379s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005691s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022062s ]
+SQL: SHOW COLUMNS FROM `table_shop` [ RunTime:0.023302s ]
+SQL: SELECT * FROM `table_shop` WHERE ( `shop_status` = 1 ) ORDER BY visited desc LIMIT 10   [ RunTime:0.023453s ]
+SQL: SHOW COLUMNS FROM `table_like` [ RunTime:0.020641s ]
+SQL: SELECT * FROM `table_like` WHERE ( `uid` = 4 )  [ RunTime:0.019626s ]
+NOTIC: [8] Undefined variable: arr /mnt/php/table/Application/Common/Common/function.php 第 1063 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/6ec0496fa2fd2651240bd324c2bad770.php 第 25 行.
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.022555s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021057s ]
+NOTIC: [8] Undefined index: distance /mnt/php/table/Runtime/Cache/Home/6ec0496fa2fd2651240bd324c2bad770.php 第 36 行.
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/6ec0496fa2fd2651240bd324c2bad770.php 第 25 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 49 ) LIMIT 1   [ RunTime:0.021814s ]
+NOTIC: [8] Undefined index: distance /mnt/php/table/Runtime/Cache/Home/6ec0496fa2fd2651240bd324c2bad770.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.131500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004567s ]
+
+[ 2016-07-04T17:03:20+08:00 ] 172.16.3.32 /index.php?s=/Home/user/member.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.020858s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005624s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.057309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004200s ]
+
+[ 2016-07-04T17:03:22+08:00 ] 172.16.3.32 /index.php?s=/Home/user/setting.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.019911s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004898s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.049567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004302s ]
+
+[ 2016-07-04T17:03:26+08:00 ] 172.16.3.32 /index.php?s=/Home/user/about.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.024524s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004415s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.048954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004041s ]
+
+[ 2016-07-04T17:03:28+08:00 ] 172.16.3.32 /index.php?s=/Home/feedback/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012841s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002905s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004179s ]
+
+[ 2016-07-04T17:03:31+08:00 ] 172.16.3.32 /index.php?s=/Home/user/changepassword.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013350s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003189s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.020988s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003755s ]
+
+[ 2016-07-04T17:03:36+08:00 ] 172.16.3.32 /index.php?s=/Home/order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012658s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002911s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022057s ]
+SQL: SHOW COLUMNS FROM `table_order` [ RunTime:0.024587s ]
+SQL: SELECT * FROM `table_order` INNER JOIN table_shop ON table_order.shop_id = table_shop.id  WHERE ( `uid` = '4' ) ORDER BY create_time desc  [ RunTime:0.026371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.021074s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.025320s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.022205s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.020752s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.020683s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021369s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.019748s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.020796s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021455s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.020803s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021056s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021651s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.303974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.304156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003535s ]
+
+[ 2016-07-04T17:03:38+08:00 ] 172.16.3.32 /index.php?s=/Home/order/detail/order_id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012363s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002923s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.025468s ]
+SQL: SHOW COLUMNS FROM `table_order` [ RunTime:0.022116s ]
+SQL: SELECT * FROM `table_order` INNER JOIN table_shop ON table_order.shop_id = table_shop.id  WHERE ( `order_id` = '25' ) LIMIT 1   [ RunTime:0.028832s ]
+SQL: SHOW COLUMNS FROM `table_cart` [ RunTime:0.024605s ]
+SQL: SELECT * FROM `table_cart` WHERE ( `cart_type` = 1 ) AND ( `status` = 2 ) AND ( `uid` = 4 ) AND ( `shop_id` = 1 ) AND ( `order_id` = '25' )  [ RunTime:0.023013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: order_num /mnt/php/table/Runtime/Cache/Home/4df1c6483499a79c168b4315d3a84fc4.php 第 77 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004141s ]
+
+[ 2016-07-04T17:03:42+08:00 ] 172.16.3.32 /index.php?s=/Home/order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.019722s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006104s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021312s ]
+SQL: SHOW COLUMNS FROM `table_order` [ RunTime:0.022986s ]
+SQL: SELECT * FROM `table_order` INNER JOIN table_shop ON table_order.shop_id = table_shop.id  WHERE ( `uid` = '4' ) ORDER BY create_time desc  [ RunTime:0.027793s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.021176s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021507s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.020922s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021794s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.020462s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.020737s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021402s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021695s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021378s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.020770s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.023048s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/f5a8a592565b6c1bc3050c4565755649.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.020500s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.308302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.308408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004621s ]
+
+[ 2016-07-04T17:03:44+08:00 ] 172.16.3.32 /index.php?s=/Home/user/member.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.011030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002537s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.023105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003501s ]
+
+[ 2016-07-04T17:03:47+08:00 ] 172.16.3.32 /index.php?s=/Home/takeaway/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.014347s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003743s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022462s ]
+SQL: SHOW COLUMNS FROM `table_takeaway` [ RunTime:0.021489s ]
+SQL: SELECT * FROM `table_takeaway` INNER JOIN table_shop ON table_takeaway.shop_id = table_shop.id  WHERE ( `uid` = '4' ) ORDER BY create_time desc  [ RunTime:0.038243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.021921s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021716s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021340s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.022265s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.023378s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.022069s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021803s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.020926s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.020520s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021303s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.023012s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021314s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021794s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021636s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021434s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021167s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.022486s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.020801s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.020798s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.021029s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/07f0de821e7552153aebe7979cc10026.php 第 19 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.022139s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.506697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.506768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003663s ]
+
+[ 2016-07-04T17:03:49+08:00 ] 172.16.3.32 /index.php?s=/Home/user/member.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021905s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2016-07-04T17:03:50+08:00 ] 172.16.3.32 /index.php?s=/Home/message/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.011890s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003025s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003290s ]
+
+[ 2016-07-04T17:03:53+08:00 ] 172.16.3.32 /index.php?s=/Home/user/setting.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012714s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003109s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002995s ]
+
+[ 2016-07-04T17:03:56+08:00 ] 172.16.3.32 /index.php?s=/Home/user/about.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015287s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005329s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.034824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002683s ]
+
+[ 2016-07-04T17:04:01+08:00 ] 172.16.3.32 /index.php?s=/Home/feedback/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013232s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004188s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.020950s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003721s ]
+
+[ 2016-07-04T17:04:07+08:00 ] 172.16.3.32 /index.php?s=/Home/find/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013268s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003390s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021935s ]
+SQL: SHOW COLUMNS FROM `table_shop` [ RunTime:0.025329s ]
+SQL: SELECT * FROM `table_shop` WHERE ( `shop_status` = 1 ) ORDER BY visited desc LIMIT 10   [ RunTime:0.022767s ]
+SQL: SHOW COLUMNS FROM `table_like` [ RunTime:0.027793s ]
+SQL: SELECT * FROM `table_like` WHERE ( `uid` = 4 )  [ RunTime:0.019364s ]
+NOTIC: [8] Undefined variable: arr /mnt/php/table/Application/Common/Common/function.php 第 1063 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/6ec0496fa2fd2651240bd324c2bad770.php 第 25 行.
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.023465s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.023135s ]
+NOTIC: [8] Undefined index: distance /mnt/php/table/Runtime/Cache/Home/6ec0496fa2fd2651240bd324c2bad770.php 第 36 行.
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/6ec0496fa2fd2651240bd324c2bad770.php 第 25 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 49 ) LIMIT 1   [ RunTime:0.020044s ]
+NOTIC: [8] Undefined index: distance /mnt/php/table/Runtime/Cache/Home/6ec0496fa2fd2651240bd324c2bad770.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.126002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003804s ]
+
+[ 2016-07-04T17:04:09+08:00 ] 172.16.3.32 /index.php?s=/Home/shop/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.009757s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002305s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021409s ]
+SQL: SHOW COLUMNS FROM `table_shop` [ RunTime:0.023619s ]
+SQL: SELECT * FROM `table_shop` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.023152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/e9005f3e300b79237bc6eefa1cb81c35.php 第 19 行.
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.022203s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 45 ) LIMIT 1   [ RunTime:0.020102s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.075961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002408s ]
+
+[ 2016-07-04T17:04:13+08:00 ] 172.16.3.32 /index.php?s=/Home/goods/index/feed_type/2/shop_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.028195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005329s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022547s ]
+SQL: SHOW COLUMNS FROM `table_category` [ RunTime:0.024038s ]
+SQL: SELECT * FROM `table_category` WHERE ( shop_id = 1 ) ORDER BY sort asc  [ RunTime:0.023161s ]
+SQL: SHOW COLUMNS FROM `table_goods` [ RunTime:0.023802s ]
+SQL: SELECT * FROM `table_goods` WHERE ( `status` = 1 ) AND ( feed_type = 2 OR feed_type = 3 ) AND ( `shop_id` = 1 ) AND ( `category` = '48' )  [ RunTime:0.023905s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined variable: cart_type /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 68 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.101474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.007767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007984s ]
+
+[ 2016-07-04T17:04:14+08:00 ] 172.16.3.32 /index.php?s=/Home/goods/index/feed_type/1/shop_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.021916s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008356s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021817s ]
+SQL: SHOW COLUMNS FROM `table_category` [ RunTime:0.021736s ]
+SQL: SELECT * FROM `table_category` WHERE ( shop_id = 1 ) ORDER BY sort asc  [ RunTime:0.022887s ]
+SQL: SHOW COLUMNS FROM `table_goods` [ RunTime:0.024549s ]
+SQL: SELECT * FROM `table_goods` WHERE ( `status` = 1 ) AND ( feed_type = 1 OR feed_type = 3 ) AND ( `shop_id` = 1 ) AND ( `category` = '48' )  [ RunTime:0.023284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Undefined variable: cart_type /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 68 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004049s ]
+
+[ 2016-07-04T17:04:15+08:00 ] 172.16.3.32 /index.php?s=/Home/cart/count.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.031989s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008508s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021282s ]
+SQL: SHOW COLUMNS FROM `table_cart` [ RunTime:0.027044s ]
+SQL: SELECT * FROM `table_cart` WHERE ( `cart_type` = 1 ) AND ( `status` = 1 ) AND ( `uid` = 4 ) AND ( `shop_id` = 1 )  [ RunTime:0.022740s ]
+
+[ 2016-07-04T17:04:16+08:00 ] 172.16.3.32 /index.php?s=/Home/Goods/index/feed_type/1/shop_id/1/type/39.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012673s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002977s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022063s ]
+SQL: SHOW COLUMNS FROM `table_category` [ RunTime:0.023687s ]
+SQL: SELECT * FROM `table_category` WHERE ( shop_id = 1 ) ORDER BY sort asc  [ RunTime:0.023660s ]
+SQL: SHOW COLUMNS FROM `table_goods` [ RunTime:0.021010s ]
+SQL: SELECT * FROM `table_goods` WHERE ( `status` = 1 ) AND ( feed_type = 1 OR feed_type = 3 ) AND ( `shop_id` = 1 ) AND ( `category` = '39' )  [ RunTime:0.024248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] Undefined variable: cart_type /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 68 行.
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 76 行.
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.021341s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 31 ) LIMIT 1   [ RunTime:0.021844s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 76 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 39 ) LIMIT 1   [ RunTime:0.020989s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 76 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 19 ) LIMIT 1   [ RunTime:0.021053s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 76 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 22 ) LIMIT 1   [ RunTime:0.020666s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.207000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006101s ]
+
+[ 2016-07-04T17:04:16+08:00 ] 172.16.3.32 /index.php?s=/Home/Goods/index/feed_type/1/shop_id/1/type/39.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.022113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006489s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022761s ]
+SQL: SHOW COLUMNS FROM `table_category` [ RunTime:0.022972s ]
+SQL: SELECT * FROM `table_category` WHERE ( shop_id = 1 ) ORDER BY sort asc  [ RunTime:0.024858s ]
+SQL: SHOW COLUMNS FROM `table_goods` [ RunTime:0.023915s ]
+SQL: SELECT * FROM `table_goods` WHERE ( `status` = 1 ) AND ( feed_type = 1 OR feed_type = 3 ) AND ( `shop_id` = 1 ) AND ( `category` = '39' )  [ RunTime:0.023765s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: cart_type /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 68 行.
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 76 行.
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.022478s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 31 ) LIMIT 1   [ RunTime:0.022705s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 76 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 39 ) LIMIT 1   [ RunTime:0.021187s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 76 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 19 ) LIMIT 1   [ RunTime:0.021395s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 76 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 22 ) LIMIT 1   [ RunTime:0.021160s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.157725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004227s ]
+
+[ 2016-07-04T17:04:17+08:00 ] 172.16.3.32 /index.php?s=/Home/Goods/index/feed_type/1/shop_id/1/type/42.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.016740s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005756s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022875s ]
+SQL: SHOW COLUMNS FROM `table_category` [ RunTime:0.022473s ]
+SQL: SELECT * FROM `table_category` WHERE ( shop_id = 1 ) ORDER BY sort asc  [ RunTime:0.023401s ]
+SQL: SHOW COLUMNS FROM `table_goods` [ RunTime:0.023696s ]
+SQL: SELECT * FROM `table_goods` WHERE ( `status` = 1 ) AND ( feed_type = 1 OR feed_type = 3 ) AND ( `shop_id` = 1 ) AND ( `category` = '42' )  [ RunTime:0.024541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000505s ]
+NOTIC: [8] Undefined variable: cart_type /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 68 行.
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 76 行.
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.020961s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 15 ) LIMIT 1   [ RunTime:0.021614s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.088387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004725s ]
+
+[ 2016-07-04T17:04:17+08:00 ] 172.16.3.32 /index.php?s=/Home/Goods/index/feed_type/1/shop_id/1/type/46.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.021806s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003964s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.030166s ]
+SQL: SHOW COLUMNS FROM `table_category` [ RunTime:0.024254s ]
+SQL: SELECT * FROM `table_category` WHERE ( shop_id = 1 ) ORDER BY sort asc  [ RunTime:0.023463s ]
+SQL: SHOW COLUMNS FROM `table_goods` [ RunTime:0.023807s ]
+SQL: SELECT * FROM `table_goods` WHERE ( `status` = 1 ) AND ( feed_type = 1 OR feed_type = 3 ) AND ( `shop_id` = 1 ) AND ( `category` = '46' )  [ RunTime:0.024163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: cart_type /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 68 行.
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 76 行.
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.023268s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.021807s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 76 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 41 ) LIMIT 1   [ RunTime:0.021683s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 76 行.
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 20 ) LIMIT 1   [ RunTime:0.023058s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.143761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.018057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018158s ]
+
+[ 2016-07-04T17:04:19+08:00 ] 172.16.3.32 /index.php?s=/Home/cart/count.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.017774s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008859s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022820s ]
+SQL: SHOW COLUMNS FROM `table_cart` [ RunTime:0.045625s ]
+SQL: SELECT * FROM `table_cart` WHERE ( `cart_type` = 1 ) AND ( `status` = 1 ) AND ( `uid` = 4 ) AND ( `shop_id` = 1 )  [ RunTime:0.045145s ]
+
+[ 2016-07-04T17:04:20+08:00 ] 172.16.3.32 /index.php?s=/Home/Goods/detail/id/22/cart_type/1/shop_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012393s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003457s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.045947s ]
+SQL: SHOW COLUMNS FROM `table_goods` [ RunTime:0.043878s ]
+SQL: SELECT * FROM `table_goods` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.045329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/8fa6c01669e9c7ed382cb3ace992b16c.php 第 22 行.
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.044759s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 40 ) LIMIT 1   [ RunTime:0.042835s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.128994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003625s ]
+
+[ 2016-07-04T17:04:21+08:00 ] 172.16.3.32 /index.php?s=/Home/cart/count.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.018685s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004820s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021685s ]
+SQL: SHOW COLUMNS FROM `table_cart` [ RunTime:0.022053s ]
+SQL: SELECT * FROM `table_cart` WHERE ( `cart_type` = 1 ) AND ( `status` = 1 ) AND ( `uid` = 4 ) AND ( `shop_id` = 1 )  [ RunTime:0.022672s ]
+
+[ 2016-07-04T17:04:23+08:00 ] 172.16.3.32 /index.php?s=/Home/cart/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013511s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003608s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021821s ]
+SQL: SHOW COLUMNS FROM `table_goods` [ RunTime:0.024377s ]
+SQL: SELECT * FROM `table_goods` WHERE ( `id` = 22 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.023859s ]
+SQL: SHOW COLUMNS FROM `table_cart` [ RunTime:0.025132s ]
+SQL: SELECT * FROM `table_cart` WHERE ( `goods_id` = 22 ) AND ( `cart_type` = 1 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.022545s ]
+SQL: INSERT INTO `table_cart` (`goods_id`,`goods_name`,`cart_type`,`uid`,`burdening`,`note`,`num`,`goods_prices`,`shop_id`) VALUES (22,'Fox Bowl ',1,4,'','',1,'13.0',1) [ RunTime:0.029728s ]
+
+[ 2016-07-04T17:04:23+08:00 ] 172.16.3.32 /index.php?s=/Home/cart/count.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.011991s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003075s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022408s ]
+SQL: SHOW COLUMNS FROM `table_cart` [ RunTime:0.023542s ]
+SQL: SELECT * FROM `table_cart` WHERE ( `cart_type` = 1 ) AND ( `status` = 1 ) AND ( `uid` = 4 ) AND ( `shop_id` = 1 )  [ RunTime:0.022984s ]
+
+[ 2016-07-04T17:04:26+08:00 ] 172.16.3.32 /index.php?s=/Home/cart/count.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.014778s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003438s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022038s ]
+SQL: SHOW COLUMNS FROM `table_cart` [ RunTime:0.022320s ]
+SQL: SELECT * FROM `table_cart` WHERE ( `cart_type` = 1 ) AND ( `status` = 1 ) AND ( `uid` = 4 ) AND ( `shop_id` = 1 )  [ RunTime:0.023019s ]
+
+[ 2016-07-04T17:04:30+08:00 ] 172.16.3.32 /index.php?s=/Home/shop/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012586s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003545s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022645s ]
+SQL: SHOW COLUMNS FROM `table_shop` [ RunTime:0.021277s ]
+SQL: SELECT * FROM `table_shop` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.022633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/e9005f3e300b79237bc6eefa1cb81c35.php 第 19 行.
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.022797s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 45 ) LIMIT 1   [ RunTime:0.020850s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.080850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003429s ]
+
+[ 2016-07-04T17:04:31+08:00 ] 172.16.3.32 /index.php?s=/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.011565s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003431s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022623s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.047978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2016-07-04T17:07:15+08:00 ] 172.16.3.32 /index.php?s=/Home/Find/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.022231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004796s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021536s ]
+SQL: SHOW COLUMNS FROM `table_shop` [ RunTime:0.021606s ]
+SQL: SELECT * FROM `table_shop` ORDER BY visited desc LIMIT 5   [ RunTime:0.022540s ]
+SQL: SHOW COLUMNS FROM `table_history` [ RunTime:0.022859s ]
+SQL: SELECT * FROM `table_history` WHERE ( `uid` = 4 ) ORDER BY create_time desc LIMIT 5   [ RunTime:0.020364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.051267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003661s ]
+
+[ 2016-07-04T17:07:21+08:00 ] 172.16.3.32 /index.php?s=/Home/shop/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.014075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003189s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.022035s ]
+SQL: SHOW COLUMNS FROM `table_shop` [ RunTime:0.021632s ]
+SQL: SELECT * FROM `table_shop` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.022886s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' /mnt/php/table/Runtime/Cache/Home/e9005f3e300b79237bc6eefa1cb81c35.php 第 19 行.
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.021615s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 45 ) LIMIT 1   [ RunTime:0.023076s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.083288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002971s ]
+
+[ 2016-07-04T17:07:26+08:00 ] 172.16.3.32 /index.php?s=/Home/goods/index/feed_type/1/shop_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.011906s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003280s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.023997s ]
+SQL: SHOW COLUMNS FROM `table_category` [ RunTime:0.022111s ]
+SQL: SELECT * FROM `table_category` WHERE ( shop_id = 1 ) ORDER BY sort asc  [ RunTime:0.022972s ]
+SQL: SHOW COLUMNS FROM `table_goods` [ RunTime:0.023611s ]
+SQL: SELECT * FROM `table_goods` WHERE ( `status` = 1 ) AND ( feed_type = 1 OR feed_type = 3 ) AND ( `shop_id` = 1 ) AND ( `category` = '48' )  [ RunTime:0.023432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined variable: cart_type /mnt/php/table/Runtime/Cache/Home/9e7f96ef9c448779ce3f9e153c74b548.php 第 68 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004830s ]
+
+[ 2016-07-04T17:07:27+08:00 ] 172.16.3.32 /index.php?s=/Home/cart/count.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.014142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003987s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021315s ]
+SQL: SHOW COLUMNS FROM `table_cart` [ RunTime:0.021898s ]
+SQL: SELECT * FROM `table_cart` WHERE ( `cart_type` = 1 ) AND ( `status` = 1 ) AND ( `uid` = 4 ) AND ( `shop_id` = 1 )  [ RunTime:0.022245s ]
+
+[ 2016-07-04T17:13:16+08:00 ] 172.16.3.32 /index.php?s=/admin
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.020281s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005173s ]
+
+[ 2016-07-04T17:13:16+08:00 ] 172.16.3.32 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003127s ]
+SQL: SHOW COLUMNS FROM `table_config` [ RunTime:0.021604s ]
+SQL: SELECT `type`,`name`,`value` FROM `table_config` WHERE ( `status` = 1 )  [ RunTime:0.023732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003050s ]
+
+[ 2016-07-04T17:13:17+08:00 ] 172.16.3.32 /index.php?s=/Admin/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.026215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004519s ]
+
+[ 2016-07-04T17:13:25+08:00 ] 172.16.3.32 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.021097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004092s ]
+
+[ 2016-07-04T17:13:25+08:00 ] 172.16.3.32 /index.php?s=/Admin/Public/verify.html&random=0.7377677112476617
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013669s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003881s ]
+
+[ 2016-07-04T17:13:31+08:00 ] 172.16.3.32 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.019307s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004119s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021483s ]
+SQL: SELECT * FROM `table_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.021725s ]
+
+[ 2016-07-04T17:13:31+08:00 ] 172.16.3.32 /index.php?s=/Admin/Public/verify.html&random=0.9359312827012258
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012940s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004071s ]
+
+[ 2016-07-04T17:13:38+08:00 ] 172.16.3.32 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.020056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004253s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.023041s ]
+SQL: SELECT * FROM `table_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.022301s ]
+
+[ 2016-07-04T17:13:39+08:00 ] 172.16.3.32 /index.php?s=/Admin/Public/verify.html&random=0.15755717700950034
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.009886s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002389s ]
+
+[ 2016-07-04T17:14:41+08:00 ] 172.16.3.32 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.017204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003916s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021761s ]
+SQL: SELECT * FROM `table_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.022436s ]
+SQL: UPDATE `table_ucenter_member` SET `last_login_time`=1467623680,`last_login_ip`='2886730528' WHERE ( `id` = 1 ) [ RunTime:0.021527s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.021839s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`shop_id`,`head_img` FROM `table_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.024022s ]
+SQL: SHOW COLUMNS FROM `table_action` [ RunTime:0.021782s ]
+SQL: SELECT * FROM `table_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.020813s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.020662s ]
+SQL: SELECT `nickname` FROM `table_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.020633s ]
+SQL: SHOW COLUMNS FROM `table_action_log` [ RunTime:0.021968s ]
+SQL: INSERT INTO `table_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,2886730528,'member',1,1467623680,'admin在2016-07-04 17:14登录了后台') [ RunTime:0.021347s ]
+SQL: SELECT * FROM `table_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.020884s ]
+NOTIC: [8] Undefined offset: 1 /mnt/php/table/Application/Common/Common/function.php 第 673 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given /mnt/php/table/Application/Common/Common/function.php 第 673 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `table_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1467537280 ) LIMIT 1   [ RunTime:0.021758s ]
+SQL: UPDATE `table_member` SET `score`=score+10 WHERE ( uid=1 AND status>-1 ) [ RunTime:0.022227s ]
+SQL: UPDATE `table_member` SET `login`=`login`+1,`last_login_time`=1467623680,`last_login_ip`='2886730528' WHERE ( `uid` = 1 ) [ RunTime:0.022430s ]
+
+[ 2016-07-04T17:14:42+08:00 ] 172.16.3.32 /index.php?s=/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.016031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003732s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.022290s ]
+SQL: SELECT * FROM `table_member` LIMIT 1   [ RunTime:0.022365s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021684s ]
+SQL: SELECT * FROM `table_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.020508s ]
+SQL: SELECT `id` FROM `table_menu` WHERE ( url like '%Index/index%' ) LIMIT 1   [ RunTime:0.025021s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021430s ]
+SQL: SELECT `id`,`pid`,`title` FROM `table_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.020992s ]
+SQL: SELECT DISTINCT  `group` FROM `table_menu` WHERE ( pid = 1 )  [ RunTime:0.020746s ]
+SQL: SELECT `id`,`url` FROM `table_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.020741s ]
+SQL: SHOW COLUMNS FROM `table_order` [ RunTime:0.022763s ]
+SQL: SHOW COLUMNS FROM `table_takeaway` [ RunTime:0.023193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_order` WHERE ( `shop_id` = 1 ) LIMIT 1   [ RunTime:0.019528s ]
+SQL: SELECT * FROM `table_order` INNER JOIN table_table ON table_order.table_id = table_table.id   [ RunTime:0.024681s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_takeaway` WHERE ( `shop_id` = 1 ) LIMIT 1   [ RunTime:0.023157s ]
+SQL: SELECT * FROM `table_takeaway` WHERE ( `shop_id` = 1 ) AND ( takeaway_status = 2 OR takeaway_status = 4 )  [ RunTime:0.024125s ]
+SQL: SELECT * FROM `table_takeaway` WHERE ( `shop_id` = 1 ) AND ( `takeaway_status` = 1 )  [ RunTime:0.022782s ]
+SQL: SHOW COLUMNS FROM `table_shop` [ RunTime:0.023873s ]
+SQL: SELECT * FROM `table_shop` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.024211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.064862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.006335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006472s ]
+
+[ 2016-07-04T17:15:00+08:00 ] 172.16.3.32 /index.php?s=/Admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.009912s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002820s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::delete() should be compatible with Admin\Controller\AdminController::delete($model, $where = Array, $msg = Array) /mnt/php/table/Application/Admin/Controller/GoodsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.020825s ]
+SQL: SELECT * FROM `table_member` LIMIT 1   [ RunTime:0.022571s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.025158s ]
+SQL: SELECT * FROM `table_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.021314s ]
+SQL: SELECT `id` FROM `table_menu` WHERE ( url like '%Goods/index%' ) LIMIT 1   [ RunTime:0.021658s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021660s ]
+SQL: SELECT `id`,`pid`,`title` FROM `table_menu` WHERE ( id=122 ) LIMIT 1   [ RunTime:0.021331s ]
+SQL: SELECT DISTINCT  `group` FROM `table_menu` WHERE ( pid = 122 )  [ RunTime:0.020758s ]
+SQL: SELECT `id`,`url` FROM `table_menu` WHERE ( `pid` = 122 ) AND ( `hide` = 0 )  [ RunTime:0.022303s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `table_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 122 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.021831s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `table_menu` WHERE ( `group` = '菜品管理' ) AND ( `pid` = 122 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.022421s ]
+SQL: SHOW COLUMNS FROM `table_goods` [ RunTime:0.022018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_goods` WHERE ( `status` = 1 ) AND ( `shop_id` = 1 ) LIMIT 1   [ RunTime:0.022304s ]
+SQL: SELECT * FROM `table_goods` WHERE ( `status` = 1 ) AND ( `shop_id` = 1 ) ORDER BY create_time desc LIMIT 0,10   [ RunTime:0.027195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `table_category` [ RunTime:0.022887s ]
+SQL: SELECT * FROM `table_category` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.024462s ]
+SQL: SELECT * FROM `table_category` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.024446s ]
+SQL: SELECT * FROM `table_category` WHERE ( `id` = 46 ) LIMIT 1   [ RunTime:0.023433s ]
+SQL: SELECT * FROM `table_category` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.024288s ]
+SQL: SELECT * FROM `table_category` WHERE ( `id` = 46 ) LIMIT 1   [ RunTime:0.024057s ]
+SQL: SELECT * FROM `table_category` WHERE ( `id` = 46 ) LIMIT 1   [ RunTime:0.025760s ]
+SQL: SELECT * FROM `table_category` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.026893s ]
+SQL: SELECT * FROM `table_category` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.035258s ]
+SQL: SELECT * FROM `table_category` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.023953s ]
+NOTIC: [8] Undefined variable: _page /mnt/php/table/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.310363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.310547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004600s ]
+
+[ 2016-07-04T17:15:00+08:00 ] 172.16.3.32 /index.php?s=/Admin/shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012399s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004156s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.021839s ]
+SQL: SELECT * FROM `table_member` LIMIT 1   [ RunTime:0.021240s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021064s ]
+SQL: SELECT * FROM `table_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.021832s ]
+SQL: SELECT `id` FROM `table_menu` WHERE ( url like '%Shop/index%' ) LIMIT 1   [ RunTime:0.020978s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021554s ]
+SQL: SELECT `id`,`pid`,`title` FROM `table_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.020208s ]
+SQL: SELECT DISTINCT  `group` FROM `table_menu` WHERE ( pid = 68 )  [ RunTime:0.021478s ]
+SQL: SELECT `id`,`url` FROM `table_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.020602s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `table_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.022736s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `table_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.021186s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `table_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.023243s ]
+SQL: SHOW COLUMNS FROM `table_shop` [ RunTime:0.021093s ]
+SQL: SELECT * FROM `table_shop` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.021729s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /mnt/php/table/Runtime/Cache/Admin/52fa67f14c08742f6c521ab8140bab06.php 第 177 行.
+INFO: [ UploadImages ] --START--
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.022868s ]
+SQL: SHOW COLUMNS FROM `table_picture` [ RunTime:0.023424s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 14 ) LIMIT 1   [ RunTime:0.022412s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.055907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003899s ]
+INFO: Run UploadImages [ RunTime:0.070829s ]
+INFO: [ UploadImages ] --END-- [ RunTime:0.070909s ]
+NOTIC: [8] Use of undefined constant detail_pic - assumed 'detail_pic' /mnt/php/table/Runtime/Cache/Admin/52fa67f14c08742f6c521ab8140bab06.php 第 183 行.
+INFO: [ UploadImages ] --START--
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.084889s ]
+SQL: SELECT * FROM `table_picture` WHERE ( `status` = 1 ) AND ( `id` = 45 ) LIMIT 1   [ RunTime:0.020521s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032352s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.034086s ]
+INFO: Run UploadImages [ RunTime:0.034041s ]
+INFO: [ UploadImages ] --END-- [ RunTime:-0.000052s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032556s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.034278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004537s ]
+
+[ 2016-07-04T17:15:06+08:00 ] 172.16.3.32 /index.php?s=/Admin/Table/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.010955s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002568s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.021902s ]
+SQL: SELECT * FROM `table_member` LIMIT 1   [ RunTime:0.021688s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021339s ]
+SQL: SELECT * FROM `table_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.022159s ]
+SQL: SELECT `id` FROM `table_menu` WHERE ( url like '%Table/index%' ) LIMIT 1   [ RunTime:0.021806s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021884s ]
+SQL: SELECT `id`,`pid`,`title` FROM `table_menu` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.022417s ]
+SQL: SELECT `id`,`pid`,`title` FROM `table_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.019689s ]
+SQL: SELECT DISTINCT  `group` FROM `table_menu` WHERE ( pid = 68 )  [ RunTime:0.022684s ]
+SQL: SELECT `id`,`url` FROM `table_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.019972s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `table_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.022536s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `table_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.021112s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `table_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.021059s ]
+SQL: SHOW COLUMNS FROM `table_table` [ RunTime:0.021615s ]
+SQL: SELECT * FROM `table_table` WHERE ( `shop_id` = 1 )  [ RunTime:0.022292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: _page /mnt/php/table/Runtime/Cache/Admin/5163936fb2e8f4d5368148e74ce1f2ee.php 第 129 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004272s ]
+
+[ 2016-07-04T17:15:07+08:00 ] 172.16.3.32 /index.php?s=/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.008552s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.021791s ]
+SQL: SELECT * FROM `table_member` LIMIT 1   [ RunTime:0.021547s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021192s ]
+SQL: SELECT * FROM `table_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.020778s ]
+SQL: SELECT `id` FROM `table_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.020191s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021819s ]
+SQL: SELECT `id`,`pid`,`title` FROM `table_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.020552s ]
+SQL: SELECT `id`,`pid`,`title` FROM `table_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.020210s ]
+SQL: SELECT DISTINCT  `group` FROM `table_menu` WHERE ( pid = 68 )  [ RunTime:0.019347s ]
+SQL: SELECT `id`,`url` FROM `table_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.019861s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `table_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.023653s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `table_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.024967s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `table_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.022673s ]
+SQL: SELECT `id`,`title` FROM `table_menu`  [ RunTime:0.022505s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `table_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.024272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.041794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004474s ]
+
+[ 2016-07-04T17:15:11+08:00 ] 172.16.3.32 /index.php?s=/Admin/Count/index/day/1.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.017156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003827s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.023887s ]
+SQL: SELECT * FROM `table_member` LIMIT 1   [ RunTime:0.022814s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.023906s ]
+SQL: SELECT * FROM `table_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.020958s ]
+SQL: SELECT `id` FROM `table_menu` WHERE ( url like '%Count/index%' ) LIMIT 1   [ RunTime:0.020019s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.022382s ]
+SQL: SELECT `id`,`pid`,`title` FROM `table_menu` WHERE ( id=126 ) LIMIT 1   [ RunTime:0.023948s ]
+SQL: SELECT DISTINCT  `group` FROM `table_menu` WHERE ( pid = 126 )  [ RunTime:0.020055s ]
+SQL: SELECT `id`,`url` FROM `table_menu` WHERE ( `pid` = 126 ) AND ( `hide` = 0 )  [ RunTime:0.020853s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `table_menu` WHERE ( `group` = '统计分析' ) AND ( `pid` = 126 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.023407s ]
+SQL: SHOW COLUMNS FROM `table_takeaway` [ RunTime:0.021563s ]
+SQL: SELECT * FROM `table_takeaway` WHERE ( create_time >= 1467561600 AND create_time <= 1467648000 AND shop_id = 1 )  [ RunTime:0.024876s ]
+SQL: SHOW COLUMNS FROM `table_order` [ RunTime:0.022408s ]
+SQL: SELECT * FROM `table_order` WHERE ( create_time >= 1467561600 AND create_time <= 1467648000 AND shop_id = 1 )  [ RunTime:0.023412s ]
+SQL: SELECT * FROM `table_takeaway` WHERE ( create_time >= 1467475200 AND create_time <= 1467561600 AND shop_id = 1 )  [ RunTime:0.024223s ]
+SQL: SELECT * FROM `table_order` WHERE ( create_time >= 1467475200 AND create_time <= 1467561600 AND shop_id = 1 )  [ RunTime:0.023820s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.038703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004353s ]
+
+[ 2016-07-04T17:15:12+08:00 ] 172.16.3.32 /index.php?s=/Admin/Count/orderChats.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.022513s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006159s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.020928s ]
+SQL: SELECT * FROM `table_member` LIMIT 1   [ RunTime:0.023078s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.022180s ]
+SQL: SELECT * FROM `table_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.021438s ]
+SQL: SELECT `id` FROM `table_menu` WHERE ( url like '%Count/orderchats%' ) LIMIT 1   [ RunTime:0.020352s ]
+NOTIC: [8] Use of undefined constant is_AJAX - assumed 'is_AJAX' /mnt/php/table/Application/Admin/Controller/CountController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `table_order_count` [ RunTime:0.021068s ]
+SQL: SELECT * FROM `table_order_count` WHERE ( time >= 1466956800 AND  time <= 1467619200 AND shop_id = 1 )  [ RunTime:0.028109s ]
+NOTIC: [2] Invalid argument supplied for foreach() /mnt/php/table/Application/Admin/Controller/CountController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: data /mnt/php/table/Application/Admin/Controller/CountController.class.php 第 69 行.
+
+[ 2016-07-04T17:15:13+08:00 ] 172.16.3.32 /index.php?s=/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013786s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004037s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.022210s ]
+SQL: SELECT * FROM `table_member` LIMIT 1   [ RunTime:0.021389s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `table_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.021824s ]
+SQL: SELECT `id` FROM `table_menu` WHERE ( url like '%Index/index%' ) LIMIT 1   [ RunTime:0.021671s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.020935s ]
+SQL: SELECT `id`,`pid`,`title` FROM `table_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.022040s ]
+SQL: SELECT DISTINCT  `group` FROM `table_menu` WHERE ( pid = 1 )  [ RunTime:0.020773s ]
+SQL: SELECT `id`,`url` FROM `table_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.019848s ]
+SQL: SHOW COLUMNS FROM `table_order` [ RunTime:0.022997s ]
+SQL: SHOW COLUMNS FROM `table_takeaway` [ RunTime:0.021468s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_order` WHERE ( `shop_id` = 1 ) LIMIT 1   [ RunTime:0.019558s ]
+SQL: SELECT * FROM `table_order` INNER JOIN table_table ON table_order.table_id = table_table.id   [ RunTime:0.022829s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_takeaway` WHERE ( `shop_id` = 1 ) LIMIT 1   [ RunTime:0.020036s ]
+SQL: SELECT * FROM `table_takeaway` WHERE ( `shop_id` = 1 ) AND ( takeaway_status = 2 OR takeaway_status = 4 )  [ RunTime:0.022524s ]
+SQL: SELECT * FROM `table_takeaway` WHERE ( `shop_id` = 1 ) AND ( `takeaway_status` = 1 )  [ RunTime:0.022220s ]
+SQL: SHOW COLUMNS FROM `table_shop` [ RunTime:0.023258s ]
+SQL: SELECT * FROM `table_shop` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.022138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.043886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003716s ]
+
+[ 2016-07-04T17:15:14+08:00 ] 172.16.3.32 /index.php?s=/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.021187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004093s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.021954s ]
+SQL: SELECT * FROM `table_member` LIMIT 1   [ RunTime:0.021654s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021134s ]
+SQL: SELECT * FROM `table_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.021837s ]
+SQL: SELECT `id` FROM `table_menu` WHERE ( url like '%Index/index%' ) LIMIT 1   [ RunTime:0.018877s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021036s ]
+SQL: SELECT `id`,`pid`,`title` FROM `table_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.025780s ]
+SQL: SELECT DISTINCT  `group` FROM `table_menu` WHERE ( pid = 1 )  [ RunTime:0.020098s ]
+SQL: SELECT `id`,`url` FROM `table_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.020583s ]
+SQL: SHOW COLUMNS FROM `table_order` [ RunTime:0.021898s ]
+SQL: SHOW COLUMNS FROM `table_takeaway` [ RunTime:0.023049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_order` WHERE ( `shop_id` = 1 ) LIMIT 1   [ RunTime:0.020228s ]
+SQL: SELECT * FROM `table_order` INNER JOIN table_table ON table_order.table_id = table_table.id   [ RunTime:0.023071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_takeaway` WHERE ( `shop_id` = 1 ) LIMIT 1   [ RunTime:0.020188s ]
+SQL: SELECT * FROM `table_takeaway` WHERE ( `shop_id` = 1 ) AND ( takeaway_status = 2 OR takeaway_status = 4 )  [ RunTime:0.022430s ]
+SQL: SELECT * FROM `table_takeaway` WHERE ( `shop_id` = 1 ) AND ( `takeaway_status` = 1 )  [ RunTime:0.022159s ]
+SQL: SHOW COLUMNS FROM `table_shop` [ RunTime:0.024127s ]
+SQL: SELECT * FROM `table_shop` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.023762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.046631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-04T17:15:14+08:00 ] 172.16.3.32 /index.php?s=/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012587s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003482s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.021228s ]
+SQL: SELECT * FROM `table_member` LIMIT 1   [ RunTime:0.021781s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021462s ]
+SQL: SELECT * FROM `table_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.021368s ]
+SQL: SELECT `id` FROM `table_menu` WHERE ( url like '%Index/index%' ) LIMIT 1   [ RunTime:0.020656s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021266s ]
+SQL: SELECT `id`,`pid`,`title` FROM `table_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.022841s ]
+SQL: SELECT DISTINCT  `group` FROM `table_menu` WHERE ( pid = 1 )  [ RunTime:0.020031s ]
+SQL: SELECT `id`,`url` FROM `table_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.021161s ]
+SQL: SHOW COLUMNS FROM `table_order` [ RunTime:0.021830s ]
+SQL: SHOW COLUMNS FROM `table_takeaway` [ RunTime:0.022395s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_order` WHERE ( `shop_id` = 1 ) LIMIT 1   [ RunTime:0.020128s ]
+SQL: SELECT * FROM `table_order` INNER JOIN table_table ON table_order.table_id = table_table.id   [ RunTime:0.023312s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_takeaway` WHERE ( `shop_id` = 1 ) LIMIT 1   [ RunTime:0.020278s ]
+SQL: SELECT * FROM `table_takeaway` WHERE ( `shop_id` = 1 ) AND ( takeaway_status = 2 OR takeaway_status = 4 )  [ RunTime:0.023570s ]
+SQL: SELECT * FROM `table_takeaway` WHERE ( `shop_id` = 1 ) AND ( `takeaway_status` = 1 )  [ RunTime:0.023438s ]
+SQL: SHOW COLUMNS FROM `table_shop` [ RunTime:0.022892s ]
+SQL: SELECT * FROM `table_shop` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.023097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.080241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005765s ]
+
+[ 2016-07-04T17:15:15+08:00 ] 172.16.3.32 /index.php?s=/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013412s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003253s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.020887s ]
+SQL: SELECT * FROM `table_member` LIMIT 1   [ RunTime:0.021395s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.022488s ]
+SQL: SELECT * FROM `table_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.020784s ]
+SQL: SELECT `id` FROM `table_menu` WHERE ( url like '%Index/index%' ) LIMIT 1   [ RunTime:0.021519s ]
+SQL: SHOW COLUMNS FROM `table_menu` [ RunTime:0.021829s ]
+SQL: SELECT `id`,`pid`,`title` FROM `table_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.021553s ]
+SQL: SELECT DISTINCT  `group` FROM `table_menu` WHERE ( pid = 1 )  [ RunTime:0.019540s ]
+SQL: SELECT `id`,`url` FROM `table_menu` WHERE ( `pid` = 1 ) AND ( `hide` = 0 )  [ RunTime:0.020008s ]
+SQL: SHOW COLUMNS FROM `table_order` [ RunTime:0.021208s ]
+SQL: SHOW COLUMNS FROM `table_takeaway` [ RunTime:0.021259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_order` WHERE ( `shop_id` = 1 ) LIMIT 1   [ RunTime:0.019212s ]
+SQL: SELECT * FROM `table_order` INNER JOIN table_table ON table_order.table_id = table_table.id   [ RunTime:0.023024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_takeaway` WHERE ( `shop_id` = 1 ) LIMIT 1   [ RunTime:0.025634s ]
+SQL: SELECT * FROM `table_takeaway` WHERE ( `shop_id` = 1 ) AND ( takeaway_status = 2 OR takeaway_status = 4 )  [ RunTime:0.022192s ]
+SQL: SELECT * FROM `table_takeaway` WHERE ( `shop_id` = 1 ) AND ( `takeaway_status` = 1 )  [ RunTime:0.021990s ]
+SQL: SHOW COLUMNS FROM `table_shop` [ RunTime:0.021604s ]
+SQL: SELECT * FROM `table_shop` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.022216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.051445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005023s ]
+
+[ 2016-07-04T17:16:11+08:00 ] 172.16.3.32 /index.php?s=/main
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.018555s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003768s ]
+
+[ 2016-07-04T17:16:12+08:00 ] 172.16.3.32 /index.php?s=/Main/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001911s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004050s ]
+
+[ 2016-07-04T17:16:12+08:00 ] 172.16.3.32 /index.php?s=/Main/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.019999s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004872s ]
+
+[ 2016-07-04T17:16:28+08:00 ] 172.16.3.32 /index.php?s=/Main/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003846s ]
+
+[ 2016-07-04T17:16:32+08:00 ] 172.16.3.32 /index.php?s=/Main/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002530s ]
+
+[ 2016-07-04T17:16:38+08:00 ] 172.16.3.32 /index.php?s=/Main/Public/verify.html&random=0.9371301877815048
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013440s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003874s ]
+
+[ 2016-07-04T17:16:44+08:00 ] 172.16.3.32 /index.php?s=/Main/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.014466s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003577s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_member` [ RunTime:0.021499s ]
+SQL: SELECT * FROM `table_ucenter_member` WHERE ( `username` = 'superadmin' ) LIMIT 1   [ RunTime:0.022762s ]
+SQL: UPDATE `table_ucenter_member` SET `last_login_time`=1467623803,`last_login_ip`='2886730528' WHERE ( `id` = 6 ) [ RunTime:0.021908s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.021826s ]
+SQL: SHOW COLUMNS FROM `table_ucenter_admin` [ RunTime:0.023028s ]
+SQL: SELECT * FROM `table_ucenter_admin` WHERE ( `status` = 1 ) AND ( `member_id` = 6 ) LIMIT 1   [ RunTime:0.021806s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`shop_id`,`head_img` FROM `table_member` WHERE ( `uid` = 6 ) LIMIT 1   [ RunTime:0.027789s ]
+SQL: SHOW COLUMNS FROM `table_action` [ RunTime:0.021967s ]
+SQL: SELECT * FROM `table_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.022428s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.022846s ]
+SQL: SELECT `nickname` FROM `table_member` WHERE ( `uid` = 6 ) LIMIT 1   [ RunTime:0.023524s ]
+SQL: SHOW COLUMNS FROM `table_action_log` [ RunTime:0.025265s ]
+SQL: INSERT INTO `table_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,6,2886730528,'member',6,1467623803,'superadmin在2016-07-04 17:16登录了后台') [ RunTime:0.024177s ]
+SQL: SELECT * FROM `table_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.022127s ]
+NOTIC: [8] Undefined offset: 1 /mnt/php/table/Application/Common/Common/function.php 第 673 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given /mnt/php/table/Application/Common/Common/function.php 第 673 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `table_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 6 ) AND ( `create_time` > 1467537403 ) LIMIT 1   [ RunTime:0.022808s ]
+SQL: UPDATE `table_member` SET `score`=score+10 WHERE ( uid=6 AND status>-1 ) [ RunTime:0.019727s ]
+SQL: UPDATE `table_member` SET `login`=`login`+1,`last_login_time`=1467623803,`last_login_ip`='2886730528' WHERE ( `uid` = 6 ) [ RunTime:0.020894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003117s ]
+
+[ 2016-07-04T17:16:45+08:00 ] 172.16.3.32 /index.php?s=/Main/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.014770s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003432s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.021378s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_member` LIMIT 1   [ RunTime:0.020634s ]
+SQL: SHOW COLUMNS FROM `table_order` [ RunTime:0.021303s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_order` WHERE ( status >= 4 ) LIMIT 1   [ RunTime:0.020273s ]
+SQL: SHOW COLUMNS FROM `table_takeaway` [ RunTime:0.022743s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_takeaway` WHERE ( takeaway_status >= 5 ) LIMIT 1   [ RunTime:0.020364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.038928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005139s ]
+
+[ 2016-07-04T17:17:14+08:00 ] 172.16.3.32 /index.php?s=/Main/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.020657s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003363s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.024457s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_member` WHERE ( status = 1 AND shop_id = 0 ) LIMIT 1   [ RunTime:0.023396s ]
+SQL: SELECT * FROM `table_member` WHERE ( status = 1 AND shop_id = 0 ) LIMIT 0,10   [ RunTime:0.022678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.043245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005310s ]
+
+[ 2016-07-04T17:17:16+08:00 ] 172.16.3.32 /index.php?s=/Main/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015414s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003759s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.021250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_member` LIMIT 1   [ RunTime:0.019721s ]
+SQL: SHOW COLUMNS FROM `table_order` [ RunTime:0.021213s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_order` WHERE ( status >= 4 ) LIMIT 1   [ RunTime:0.020476s ]
+SQL: SHOW COLUMNS FROM `table_takeaway` [ RunTime:0.023666s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_takeaway` WHERE ( takeaway_status >= 5 ) LIMIT 1   [ RunTime:0.020583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.047271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004906s ]
+
+[ 2016-07-04T17:17:19+08:00 ] 172.16.3.32 /index.php?s=/Main/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.026132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_member` WHERE ( status = 1 AND shop_id = 0 ) LIMIT 1   [ RunTime:0.020215s ]
+SQL: SELECT * FROM `table_member` WHERE ( status = 1 AND shop_id = 0 ) LIMIT 0,10   [ RunTime:0.022047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.041489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004031s ]
+
+[ 2016-07-04T17:17:23+08:00 ] 172.16.3.32 /index.php?s=/Main/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.017176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004054s ]
+SQL: SHOW COLUMNS FROM `table_member` [ RunTime:0.022496s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_member` LIMIT 1   [ RunTime:0.020810s ]
+SQL: SHOW COLUMNS FROM `table_order` [ RunTime:0.021816s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_order` WHERE ( status >= 4 ) LIMIT 1   [ RunTime:0.020399s ]
+SQL: SHOW COLUMNS FROM `table_takeaway` [ RunTime:0.022238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_takeaway` WHERE ( takeaway_status >= 5 ) LIMIT 1   [ RunTime:0.019928s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.048908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005097s ]
+
